@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\PaypalSource;
+use CheckoutOldSdk\Models\Payments\PaypalSource;
 use PHPUnit\Framework\TestCase;
 
 class PaypalSourceTest extends TestCase

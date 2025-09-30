@@ -1,10 +1,10 @@
 <?php
 
-namespace Checkout\tests\Controllers;
+namespace CheckoutOldSdk\tests\Controllers;
 
-use Checkout\Library\HttpHandler;
-use Checkout\Models\Instruments\Instrument;
-use Checkout\Models\Tokens\Card;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Models\Instruments\Instrument;
+use CheckoutOldSdk\Models\Tokens\Card;
 
 class InstrumentControllerTest extends SandboxTestFixture
 {
@@ -20,7 +20,7 @@ class InstrumentControllerTest extends SandboxTestFixture
     {
         $cardToken = new Card('4242424242424242', 01, 2025);
         $token = $this->checkout->tokens()->request($cardToken);
-
+        echo "FOOOOOOO   " . json_encode($token);
         // Create Instrument
         $ins = new Instrument("token", $token->token);
         $details = $this->checkout->instruments()->add($ins, HttpHandler::MODE_RETRIEVE);

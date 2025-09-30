@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Library;
+namespace CheckoutOldSdk\tests\Library;
 
-use Checkout\Library\Utilities;
+use CheckoutOldSdk\Library\Utilities;
 use PHPUnit\Framework\TestCase;
 
 /**

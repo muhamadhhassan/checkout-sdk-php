@@ -1,9 +1,9 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\Refund;
-use Checkout\tests\Helpers\Payments;
+use CheckoutOldSdk\Models\Payments\Refund;
+use CheckoutOldSdk\tests\Helpers\Payments;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -11,7 +11,7 @@ class RefundTest extends TestCase
 {
     public function testCreate()
     {
-        $class = new ReflectionClass('Checkout\Models\Payments\Refund');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Payments\Refund');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 

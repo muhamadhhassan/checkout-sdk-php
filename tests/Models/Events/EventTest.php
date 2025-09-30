@@ -1,10 +1,10 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Events\Event;
-use Checkout\Models\Response;
-use Checkout\tests\Helpers\Events;
+use CheckoutOldSdk\Models\Events\Event;
+use CheckoutOldSdk\Models\Response;
+use CheckoutOldSdk\tests\Helpers\Events;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -12,7 +12,7 @@ class EventTest extends TestCase
 {
     public function testCreate()
     {
-        $class = new ReflectionClass('Checkout\Models\Events\Event');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Events\Event');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 
@@ -26,7 +26,7 @@ class EventTest extends TestCase
 
     public function testCreateMultiple()
     {
-        $class = new ReflectionClass('Checkout\Models\Events\Event');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Events\Event');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 

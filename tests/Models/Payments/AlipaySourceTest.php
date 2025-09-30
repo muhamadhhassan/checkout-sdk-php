@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\AlipaySource;
+use CheckoutOldSdk\Models\Payments\AlipaySource;
 use PHPUnit\Framework\TestCase;
 
 class AlipaySourceTest extends TestCase

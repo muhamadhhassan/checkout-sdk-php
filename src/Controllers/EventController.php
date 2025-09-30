@@ -15,15 +15,15 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Controllers;
+namespace CheckoutOldSdk\Controllers;
 
-use Checkout\Library\Controller;
-use Checkout\Library\HttpHandler;
-use Checkout\Models\Events\Event;
-use Checkout\Models\Events\EventType;
-use Checkout\Models\Events\Notification;
-use Checkout\Models\Events\Webhook;
-use Checkout\Models\Response;
+use CheckoutOldSdk\Library\Controller;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Models\Events\Event;
+use CheckoutOldSdk\Models\Events\EventType;
+use CheckoutOldSdk\Models\Events\Notification;
+use CheckoutOldSdk\Models\Events\Webhook;
+use CheckoutOldSdk\Models\Response;
 
 /**
  * Handle event controller.

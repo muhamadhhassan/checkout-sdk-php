@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
 /**
  * Payment method EPS.
@@ -42,7 +42,7 @@ class EpsSource extends Source
      * @var string
      */
     const MODEL_NAME = 'eps';
-    
+
     /**
      * API Request banks URL.
      *

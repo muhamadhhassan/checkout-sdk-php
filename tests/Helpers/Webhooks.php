@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Helpers;
+namespace CheckoutOldSdk\tests\Helpers;
 
-use Checkout\Models\Webhooks\Webhook;
+use CheckoutOldSdk\Models\Webhooks\Webhook;
 
 class Webhooks
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Checkout\tests\Helpers;
+namespace CheckoutOldSdk\tests\Helpers;
 
 class Notifications
 {

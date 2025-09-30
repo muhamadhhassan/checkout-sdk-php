@@ -15,11 +15,11 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
-use Checkout\Library\Model;
-use Checkout\Models\Address;
-use Checkout\Models\Phone;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Models\Address;
+use CheckoutOldSdk\Models\Phone;
 
 /**
  * Payment shipping field model.

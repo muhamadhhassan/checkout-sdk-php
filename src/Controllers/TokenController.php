@@ -15,11 +15,11 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Controllers;
+namespace CheckoutOldSdk\Controllers;
 
-use Checkout\Library\Controller;
-use Checkout\Library\HttpHandler;
-use Checkout\Models\Tokens\Token;
+use CheckoutOldSdk\Library\Controller;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Models\Tokens\Token;
 
 /**
  * Handle tokens.

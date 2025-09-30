@@ -1,14 +1,14 @@
 <?php
 
-namespace Checkout\tests\Helpers;
+namespace CheckoutOldSdk\tests\Helpers;
 
-use Checkout\Models\Payments\Action;
-use Checkout\Models\Payments\Capture;
-use Checkout\Models\Payments\CardSource;
-use Checkout\Models\Payments\Payment;
-use Checkout\Models\Payments\Refund;
-use Checkout\Models\Payments\ThreeDs;
-use Checkout\Models\Payments\Voids;
+use CheckoutOldSdk\Models\Payments\Action;
+use CheckoutOldSdk\Models\Payments\Capture;
+use CheckoutOldSdk\Models\Payments\CardSource;
+use CheckoutOldSdk\Models\Payments\Payment;
+use CheckoutOldSdk\Models\Payments\Refund;
+use CheckoutOldSdk\Models\Payments\ThreeDs;
+use CheckoutOldSdk\Models\Payments\Voids;
 
 class Payments
 {

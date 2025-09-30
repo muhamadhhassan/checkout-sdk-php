@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Library;
+namespace CheckoutOldSdk\Library;
 
 use function ctype_space;
 

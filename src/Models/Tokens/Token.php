@@ -15,10 +15,10 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Tokens;
+namespace CheckoutOldSdk\Models\Tokens;
 
-use Checkout\Library\HttpHandler;
-use Checkout\Library\Model;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Library\Model;
 
 /**
  * Token base class.

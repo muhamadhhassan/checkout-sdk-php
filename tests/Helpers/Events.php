@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Helpers;
+namespace CheckoutOldSdk\tests\Helpers;
 
-use Checkout\Models\Events\Event;
+use CheckoutOldSdk\Models\Events\Event;
 
 class Events
 {

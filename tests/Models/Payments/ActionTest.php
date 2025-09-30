@@ -1,10 +1,10 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\Action;
-use Checkout\Models\Response;
-use Checkout\tests\Helpers\Payments;
+use CheckoutOldSdk\Models\Payments\Action;
+use CheckoutOldSdk\Models\Response;
+use CheckoutOldSdk\tests\Helpers\Payments;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -12,7 +12,7 @@ class ActionTest extends TestCase
 {
     public function testCreate()
     {
-        $class = new ReflectionClass('Checkout\Models\Payments\Action');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Payments\Action');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 
@@ -25,7 +25,7 @@ class ActionTest extends TestCase
 
     public function testCreateMultiple()
     {
-        $class = new ReflectionClass('Checkout\Models\Payments\Action');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Payments\Action');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 

@@ -15,11 +15,11 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
-use Checkout\Library\HttpHandler;
-use Checkout\Library\Model;
-use Checkout\Models\Response;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Models\Response;
 
 /**
  * Payment actions model.

@@ -1,10 +1,10 @@
 <?php
 
-namespace Checkout\tests\Helpers;
+namespace CheckoutOldSdk\tests\Helpers;
 
-use Checkout\Models\Sources\BillingAddress;
-use Checkout\Models\Sources\Sepa;
-use Checkout\Models\Sources\SepaData;
+use CheckoutOldSdk\Models\Sources\BillingAddress;
+use CheckoutOldSdk\Models\Sources\Sepa;
+use CheckoutOldSdk\Models\Sources\SepaData;
 
 class Sources
 {

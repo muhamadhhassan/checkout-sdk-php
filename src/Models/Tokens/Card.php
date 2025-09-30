@@ -15,10 +15,10 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Tokens;
+namespace CheckoutOldSdk\Models\Tokens;
 
-use Checkout\Library\Model;
-use Checkout\Library\Utilities;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Library\Utilities;
 
 /**
  * Card payment method.

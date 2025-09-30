@@ -1,9 +1,9 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\OxxoSource;
-use Checkout\Models\Payments\Payer;
+use CheckoutOldSdk\Models\Payments\OxxoSource;
+use CheckoutOldSdk\Models\Payments\Payer;
 use PHPUnit\Framework\TestCase;
 
 class OxxoSourceTest extends TestCase

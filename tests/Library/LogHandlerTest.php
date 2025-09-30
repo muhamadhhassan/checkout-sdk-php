@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Library;
+namespace CheckoutOldSdk\tests\Library;
 
-use Checkout\Library\LogHandler;
+use CheckoutOldSdk\Library\LogHandler;
 use PHPUnit\Framework\TestCase;
 
 class LogHandlerTest extends TestCase

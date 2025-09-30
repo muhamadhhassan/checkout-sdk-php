@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
 /**
  * Payment method Boleto.
@@ -62,7 +62,7 @@ class BoletoSource extends Source
         $this->integration_type = $integrationType;
         $this->country = $country;
         $this->payer = $payer;
-        
+
         if ($description) {
             $this->description = $description;
         }

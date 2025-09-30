@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Helpers;
+namespace CheckoutOldSdk\tests\Helpers;
 
-use Checkout\Library\HttpHandler;
+use CheckoutOldSdk\Library\HttpHandler;
 
 class HttpHandlers
 {

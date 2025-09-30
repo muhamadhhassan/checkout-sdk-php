@@ -15,9 +15,9 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Webhooks;
+namespace CheckoutOldSdk\Models\Webhooks;
 
-use Checkout\Library\Model;
+use CheckoutOldSdk\Library\Model;
 
 /**
  * Headers field for webhook.

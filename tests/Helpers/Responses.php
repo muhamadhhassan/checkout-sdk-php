@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Helpers;
+namespace CheckoutOldSdk\tests\Helpers;
 
-use Checkout\Models\Response;
+use CheckoutOldSdk\Models\Response;
 
 class Responses
 {

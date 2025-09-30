@@ -15,11 +15,11 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Sources;
+namespace CheckoutOldSdk\Models\Sources;
 
-use Checkout\Library\Model;
-use Checkout\Models\Address;
-use Checkout\Models\Payments\Customer;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Models\Address;
+use CheckoutOldSdk\Models\Payments\Customer;
 
 /**
  * Model for sources.

@@ -15,9 +15,9 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
-use Checkout\Models\Customer as BaseCustomer;
+use CheckoutOldSdk\Models\Customer as BaseCustomer;
 
 /**
  * Payment customer.

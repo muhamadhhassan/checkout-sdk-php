@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\PoliSource;
+use CheckoutOldSdk\Models\Payments\PoliSource;
 use PHPUnit\Framework\TestCase;
 
 class PoliSourceTest extends TestCase

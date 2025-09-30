@@ -15,10 +15,10 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Tokens;
+namespace CheckoutOldSdk\Models\Tokens;
 
-use Checkout\Library\Model;
-use Checkout\Library\Utilities;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Library\Utilities;
 
 /**
  * ApplePay payment method.
@@ -53,9 +53,9 @@ class ApplePay extends Token
 
     /**
      * Initialise Apple Pay.
-     * @param string $version           Version information about the payment token. 
+     * @param string $version           Version information about the payment token.
      *                                  The token uses EC_v1 for ECC-encrypted data, and RSA_v1 for RSA-encrypted data.
-     * @param string $signature         Signature of the payment and header data. 
+     * @param string $signature         Signature of the payment and header data.
      *                                  The signature includes the signing certificate, its intermediate CA certificate, and information about the signing algorithm.
      * @param string $data              Encrypted payment data. Base64 encoded as a string.
      * @param ApplePayHeader $header    Additional version-dependent information used to decrypt and verify the payment.

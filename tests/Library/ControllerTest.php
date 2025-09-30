@@ -1,11 +1,11 @@
 <?php
 
-namespace Checkout\tests\Library;
+namespace CheckoutOldSdk\tests\Library;
 
-use Checkout\CheckoutApi;
-use Checkout\Library\HttpHandler;
-use Checkout\Models\Response;
-use Checkout\tests\Helpers\HttpHandlers;
+use CheckoutOldSdk\CheckoutApi;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Models\Response;
+use CheckoutOldSdk\tests\Helpers\HttpHandlers;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -18,7 +18,7 @@ class ControllerTest extends TestCase
      */
     public function testRequestApi($name)
     {
-        $class = new ReflectionClass('Checkout\Library\Controller');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\Controller');
         $method = $class->getMethod('requestAPI');
         $method->setAccessible(true);
 
@@ -52,7 +52,7 @@ class ControllerTest extends TestCase
     public function testResponse($name)
     {
         self::markTestSkipped("unavailable");
-        $class = new ReflectionClass('Checkout\Library\Controller');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\Controller');
         $method = $class->getMethod('response');
         $method->setAccessible(true);
 
@@ -75,7 +75,7 @@ class ControllerTest extends TestCase
      */
     public function testResponseHttp($name)
     {
-        $class = new ReflectionClass('Checkout\Library\Controller');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\Controller');
         $method = $class->getMethod('response');
         $method->setAccessible(true);
 

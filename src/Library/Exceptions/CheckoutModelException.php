@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Library\Exceptions;
+namespace CheckoutOldSdk\Library\Exceptions;
 
 /**
  * Empty class. Model exception.

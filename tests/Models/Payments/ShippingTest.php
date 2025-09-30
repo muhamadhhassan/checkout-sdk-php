@@ -1,10 +1,10 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Address;
-use Checkout\Models\Payments\Shipping;
-use Checkout\Models\Phone;
+use CheckoutOldSdk\Models\Address;
+use CheckoutOldSdk\Models\Payments\Shipping;
+use CheckoutOldSdk\Models\Phone;
 use PHPUnit\Framework\TestCase;
 
 class ShippingTest extends TestCase

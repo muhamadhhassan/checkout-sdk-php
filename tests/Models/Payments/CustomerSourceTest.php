@@ -1,9 +1,9 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\CustomerSource;
-use Checkout\tests\Helpers\Sources;
+use CheckoutOldSdk\Models\Payments\CustomerSource;
+use CheckoutOldSdk\tests\Helpers\Sources;
 use PHPUnit\Framework\TestCase;
 
 class CustomerSourceTest extends TestCase

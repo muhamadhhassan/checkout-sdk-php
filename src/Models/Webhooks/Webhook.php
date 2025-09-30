@@ -15,11 +15,11 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Webhooks;
+namespace CheckoutOldSdk\Models\Webhooks;
 
-use Checkout\Library\Model;
-use Checkout\Library\Utilities;
-use Checkout\Models\Response;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Library\Utilities;
+use CheckoutOldSdk\Models\Response;
 
 /**
  * Webhook model.

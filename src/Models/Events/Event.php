@@ -15,11 +15,11 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Events;
+namespace CheckoutOldSdk\Models\Events;
 
-use Checkout\Library\Model;
-use Checkout\Library\Utilities;
-use Checkout\Models\Response;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Library\Utilities;
+use CheckoutOldSdk\Models\Response;
 
 /**
  * Event model.
@@ -80,13 +80,13 @@ class Event extends Model
      * @return Model
      */
     protected static function create(array $response)
-    {      
+    {
         $code = Utilities::getValueFromArray($response, 'http_code', 0);
         if ($code === 204 || Utilities::getValueFromArray($response, 'total_count', 0)) {
 
             $obj = new Response();
             $obj->list = array();
-            
+
             foreach (Utilities::getValueFromArray($response, 'data', array()) as &$event) {
                 $obj->list []= static::arrayToModel($event, static::QUALIFIED_NAME);
             }

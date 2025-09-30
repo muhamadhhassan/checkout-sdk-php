@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\Recipient;
+use CheckoutOldSdk\Models\Payments\Recipient;
 use PHPUnit\Framework\TestCase;
 
 class RecipientTest extends TestCase

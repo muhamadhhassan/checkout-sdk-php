@@ -1,10 +1,10 @@
 <?php
 
-namespace Checkout\tests\Controllers;
+namespace CheckoutOldSdk\tests\Controllers;
 
-use Checkout\CheckoutApi;
-use Checkout\Library\HttpHandler;
-use Checkout\tests\Helpers\Tokens;
+use CheckoutOldSdk\CheckoutApi;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\tests\Helpers\Tokens;
 use PHPUnit\Framework\TestCase;
 
 class TokenControllerTest extends SandboxTestFixture

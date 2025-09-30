@@ -15,9 +15,9 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
-use Checkout\Library\Model;
+use CheckoutOldSdk\Library\Model;
 
 /**
  * Parent class for Source and Destination.
@@ -37,7 +37,7 @@ abstract class Method extends Model
      * @var string
      */
     const QUALIFIED_NAME = __CLASS__;
-    
+
     /**
      * Method type.
      *

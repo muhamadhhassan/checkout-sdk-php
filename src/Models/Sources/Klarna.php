@@ -15,12 +15,12 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Sources;
+namespace CheckoutOldSdk\Models\Sources;
 
-use Checkout\Library\Model;
-use Checkout\Library\Utilities;
-use Checkout\Library\CheckoutConfiguration;
-use Checkout\Library\Controller;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Library\Utilities;
+use CheckoutOldSdk\Library\CheckoutConfiguration;
+use CheckoutOldSdk\Library\Controller;
 
 /**
  * Model for sources.
@@ -33,7 +33,7 @@ use Checkout\Library\Controller;
  */
 class Klarna extends Source
 {
-    
+
     /**
      * Qualified name of the class.
      *
@@ -152,8 +152,8 @@ class Klarna extends Source
      * @return string
      */
     protected function endpointModifier($url)
-    {   
-        return isset($this->configuration) && $this->configuration->getSandbox() ? $url : 'klarna/credit-sessions';       
+    {
+        return isset($this->configuration) && $this->configuration->getSandbox() ? $url : 'klarna/credit-sessions';
     }
 
 }

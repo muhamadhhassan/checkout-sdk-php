@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
 /**
  * Payer model.
@@ -46,7 +46,7 @@ class Payer extends Source
     /**
      * Magic Methods
      */
-    
+
     /**
      * Initialise payer.
      *

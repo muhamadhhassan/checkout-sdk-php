@@ -15,10 +15,10 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Events;
+namespace CheckoutOldSdk\Models\Events;
 
-use Checkout\Library\Model;
-use Checkout\Models\Response;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Models\Response;
 
 /**
  * Event type model.

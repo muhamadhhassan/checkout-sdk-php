@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
 /**
  * Parent class for Destinations.
@@ -35,7 +35,7 @@ abstract class Destination extends Method
      * @var string
      */
     const QUALIFIED_NAME = __CLASS__;
-    
+
     /**
      * Method type.
      *

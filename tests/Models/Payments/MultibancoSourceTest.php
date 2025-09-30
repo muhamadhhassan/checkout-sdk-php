@@ -1,9 +1,9 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\MultibancoSource;
-use Checkout\Models\Payments\Payer;
+use CheckoutOldSdk\Models\Payments\MultibancoSource;
+use CheckoutOldSdk\Models\Payments\Payer;
 use PHPUnit\Framework\TestCase;
 
 class MultibancoSourceTest extends TestCase

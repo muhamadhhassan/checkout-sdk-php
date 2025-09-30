@@ -15,11 +15,11 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Controllers;
+namespace CheckoutOldSdk\Controllers;
 
-use Checkout\Library\Controller;
-use Checkout\Library\HttpHandler;
-use Checkout\Models\Instruments\Instrument;
+use CheckoutOldSdk\Library\Controller;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Models\Instruments\Instrument;
 
 /**
  * Handle event controller.

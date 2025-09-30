@@ -15,10 +15,10 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Library;
+namespace CheckoutOldSdk\Library;
 
-use Checkout\Library\HttpHandler;
-use Checkout\Library\CheckoutConfiguration;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Library\CheckoutConfiguration;
 
 /**
  * Parent class of Model.
@@ -44,7 +44,7 @@ abstract class Model
      * @var string
      */
     const MODEL_REQUEST_URL = '';
-    
+
     /**
      * API Request banks URL.
      *
@@ -166,7 +166,7 @@ abstract class Model
     {
         $arr = (array) $key;
         $index = array_shift($arr);
-        
+
         if($values) {
             $value = isset($values[$index]) ? $values[$index] : $this->getValueAliased($index, $values);
         } else {
@@ -229,7 +229,7 @@ abstract class Model
      * @return string
      */
     protected function endpointModifier($url)
-    {      
+    {
         return $url;
     }
 
@@ -315,7 +315,7 @@ abstract class Model
         $link = $this->getValue(array('_links', $key, 'href'));
         if(!$link) {
             $link = '';
-        }  
+        }
 
         return $link;
     }

@@ -1,10 +1,10 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Response;
-use Checkout\Models\Webhooks\Webhook;
-use Checkout\tests\Helpers\Webhooks;
+use CheckoutOldSdk\Models\Response;
+use CheckoutOldSdk\Models\Webhooks\Webhook;
+use CheckoutOldSdk\tests\Helpers\Webhooks;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -12,7 +12,7 @@ class WebhookTest extends TestCase
 {
     public function testCreate()
     {
-        $class = new ReflectionClass('Checkout\Models\Webhooks\Webhook');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Webhooks\Webhook');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 
@@ -26,7 +26,7 @@ class WebhookTest extends TestCase
 
     public function testCreateMultiple()
     {
-        $class = new ReflectionClass('Checkout\Models\Webhooks\Webhook');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Webhooks\Webhook');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 

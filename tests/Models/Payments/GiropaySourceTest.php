@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\GiropaySource;
+use CheckoutOldSdk\Models\Payments\GiropaySource;
 use PHPUnit\Framework\TestCase;
 
 class GiropaySourceTest extends TestCase

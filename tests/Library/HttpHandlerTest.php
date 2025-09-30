@@ -1,10 +1,10 @@
 <?php
 
-namespace Checkout\tests\Library;
+namespace CheckoutOldSdk\tests\Library;
 
-use Checkout\Library\Exceptions\CheckoutHttpException;
-use Checkout\Library\HttpHandler;
-use Checkout\tests\Helpers\HttpHandlers;
+use CheckoutOldSdk\Library\Exceptions\CheckoutHttpException;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\tests\Helpers\HttpHandlers;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -77,7 +77,7 @@ class HttpHandlerTest
 
     public function testAddOption()
     {
-        $class = new ReflectionClass('Checkout\Library\HttpHandler');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\HttpHandler');
         $property = $class->getProperty('options');
         $property->setAccessible(true);
 
@@ -119,7 +119,7 @@ class HttpHandlerTest
 
     public function testOptions()
     {
-        $class = new ReflectionClass('Checkout\Library\HttpHandler');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\HttpHandler');
         $method = $class->getMethod('options');
         $method->setAccessible(true);
 
@@ -132,7 +132,7 @@ class HttpHandlerTest
 
     public function testGetCode()
     {
-        $class = new ReflectionClass('Checkout\Library\HttpHandler');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\HttpHandler');
         $property = $class->getProperty('info');
         $property->setAccessible(true);
 
@@ -156,7 +156,7 @@ class HttpHandlerTest
 
     public function testHandleError()
     {
-        $class = new ReflectionClass('Checkout\Library\HttpHandler');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\HttpHandler');
         $method = $class->getMethod('handleError');
 
         $method->setAccessible(true);
@@ -170,7 +170,7 @@ class HttpHandlerTest
 
     public function testHandleErrorCode()
     {
-        $class = new ReflectionClass('Checkout\Library\HttpHandler');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\HttpHandler');
         $method = $class->getMethod('handleError');
         $property = $class->getProperty('info');
 
@@ -188,7 +188,7 @@ class HttpHandlerTest
 
     public function testHandleErrorSuccess()
     {
-        $class = new ReflectionClass('Checkout\Library\HttpHandler');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\HttpHandler');
         $method = $class->getMethod('handleError');
         $property = $class->getProperty('info');
 
@@ -205,7 +205,7 @@ class HttpHandlerTest
 
     public function testSetUpCurl()
     {
-        $class = new ReflectionClass('Checkout\Library\HttpHandler');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\HttpHandler');
         $method = $class->getMethod('setUpCurl');
 
         $method->setAccessible(true);

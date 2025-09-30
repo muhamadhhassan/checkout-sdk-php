@@ -9,7 +9,7 @@ final class Checkout
     /**
      * @var string
      */
-    const CHK_DIR = "Checkout";
+    const CHK_DIR = "CheckoutOldSdk";
 
     /**
      * Hold registration status

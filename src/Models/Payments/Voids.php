@@ -15,10 +15,10 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
-use Checkout\Library\HttpHandler;
-use Checkout\Library\Utilities;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Library\Utilities;
 
 /**
  * Void Model.

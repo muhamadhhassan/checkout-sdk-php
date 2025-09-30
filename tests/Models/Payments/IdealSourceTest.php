@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\IdealSource;
+use CheckoutOldSdk\Models\Payments\IdealSource;
 use PHPUnit\Framework\TestCase;
 
 class IdealSourceTest extends TestCase

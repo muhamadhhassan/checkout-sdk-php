@@ -15,10 +15,10 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Sources;
+namespace CheckoutOldSdk\Models\Sources;
 
-use Checkout\Library\HttpHandler;
-use Checkout\Library\Model;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Library\Model;
 
 /**
  * Model for sources.

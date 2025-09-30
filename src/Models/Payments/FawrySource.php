@@ -15,9 +15,9 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
-use Checkout\Models\Product;
+use CheckoutOldSdk\Models\Product;
 
 /**
  * Payment method Fawry.

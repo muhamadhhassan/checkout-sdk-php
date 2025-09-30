@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
 /**
  * Payment destination field model.
@@ -35,7 +35,7 @@ class CardDestination extends Destination
      * @var string
      */
     const QUALIFIED_NAME = __CLASS__;
-    
+
     /**
      * Name of the model.
      *

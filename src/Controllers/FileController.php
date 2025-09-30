@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Controllers;
+namespace CheckoutOldSdk\Controllers;
 
 /**
  * Upload files to server.
@@ -26,7 +26,7 @@ namespace Checkout\Controllers;
  * @license  https://opensource.org/licenses/mit-license.html MIT License
  * @link     https://docs.checkout.com/
  */
-use Checkout\Library\Controller;
+use CheckoutOldSdk\Library\Controller;
 
 /**
  * Files.

@@ -1,9 +1,9 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Tokens\ApplePay;
-use Checkout\tests\Helpers\Tokens;
+use CheckoutOldSdk\Models\Tokens\ApplePay;
+use CheckoutOldSdk\tests\Helpers\Tokens;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -11,7 +11,7 @@ class ApplePayTest extends TestCase
 {
     public function testCreate()
     {
-        $class = new ReflectionClass('Checkout\Models\Tokens\ApplePay');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Tokens\ApplePay');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 

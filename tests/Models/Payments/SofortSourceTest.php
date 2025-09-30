@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\SofortSource;
+use CheckoutOldSdk\Models\Payments\SofortSource;
 use PHPUnit\Framework\TestCase;
 
 class SofortSourceTest extends TestCase

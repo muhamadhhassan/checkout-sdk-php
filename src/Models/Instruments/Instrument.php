@@ -15,11 +15,11 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Instruments;
+namespace CheckoutOldSdk\Models\Instruments;
 
-use Checkout\Library\Model;
-use Checkout\Library\Utilities;
-use Checkout\Models\Response;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Library\Utilities;
+use CheckoutOldSdk\Models\Response;
 
 /**
  * Instrument model.

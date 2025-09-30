@@ -1,9 +1,9 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Sources\Sepa;
-use Checkout\tests\Helpers\Sources;
+use CheckoutOldSdk\Models\Sources\Sepa;
+use CheckoutOldSdk\tests\Helpers\Sources;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -11,7 +11,7 @@ class SepaTest extends TestCase
 {
     public function testCreate()
     {
-        $class = new ReflectionClass('Checkout\Models\Sources\Sepa');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Sources\Sepa');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 

@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
 /**
  * Payment method GiroPay.
@@ -42,7 +42,7 @@ class GiropaySource extends IdSource
      * @var string
      */
     const MODEL_NAME = 'giropay';
-    
+
     /**
      * API Request banks URL.
      *

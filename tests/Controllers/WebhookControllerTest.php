@@ -1,11 +1,11 @@
 <?php
 
-namespace Checkout\tests\Controllers;
+namespace CheckoutOldSdk\tests\Controllers;
 
-use Checkout\CheckoutApi;
-use Checkout\Library\Exceptions\CheckoutModelException;
-use Checkout\Library\HttpHandler;
-use Checkout\tests\Helpers\Webhooks;
+use CheckoutOldSdk\CheckoutApi;
+use CheckoutOldSdk\Library\Exceptions\CheckoutModelException;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\tests\Helpers\Webhooks;
 
 class WebhookControllerTest extends SandboxTestFixture
 {

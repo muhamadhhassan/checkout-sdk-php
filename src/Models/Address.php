@@ -15,9 +15,9 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models;
+namespace CheckoutOldSdk\Models;
 
-use Checkout\Library\Model;
+use CheckoutOldSdk\Library\Model;
 
 /**
  * Address model.

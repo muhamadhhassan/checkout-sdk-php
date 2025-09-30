@@ -15,9 +15,9 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Sources;
+namespace CheckoutOldSdk\Models\Sources;
 
-use Checkout\Library\Model;
+use CheckoutOldSdk\Library\Model;
 
 /**
  * Model for sources.add(sepa).source_data.

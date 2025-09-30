@@ -1,16 +1,16 @@
 <?php
 
-namespace Checkout\tests\Controllers;
+namespace CheckoutOldSdk\tests\Controllers;
 
-use Checkout\CheckoutApi;
-use Checkout\Library\Exceptions\CheckoutHttpException;
-use Checkout\Library\HttpHandler;
-use Checkout\Models\Payments\OxxoSource;
-use Checkout\Models\Payments\Payer;
-use Checkout\Models\Payments\Payment;
-use Checkout\Models\Response;
-use Checkout\tests\Helpers\HttpHandlers;
-use Checkout\tests\Helpers\Payments;
+use CheckoutOldSdk\CheckoutApi;
+use CheckoutOldSdk\Library\Exceptions\CheckoutHttpException;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Models\Payments\OxxoSource;
+use CheckoutOldSdk\Models\Payments\Payer;
+use CheckoutOldSdk\Models\Payments\Payment;
+use CheckoutOldSdk\Models\Response;
+use CheckoutOldSdk\tests\Helpers\HttpHandlers;
+use CheckoutOldSdk\tests\Helpers\Payments;
 use Exception;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
@@ -110,7 +110,7 @@ class PaymentControllerTest extends SandboxTestFixture
     public function testResponse()
     {
         $this->markTestSkipped("unstable");
-        $class = new ReflectionClass('Checkout\Controllers\PaymentController');
+        $class = new ReflectionClass('CheckoutOldSdk\Controllers\PaymentController');
         $method = $class->getMethod('response');
         $method->setAccessible(true);
 

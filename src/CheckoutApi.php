@@ -15,21 +15,21 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout;
+namespace CheckoutOldSdk;
 
-use Checkout\Controllers\EventController;
-use Checkout\Controllers\InstrumentController;
-use Checkout\Controllers\FileController;
-use Checkout\Controllers\PaymentController;
-use Checkout\Controllers\SourceController;
-use Checkout\Controllers\TokenController;
-use Checkout\Controllers\WebhookController;
-use Checkout\Library\CheckoutConfiguration;
-use Checkout\Library\Controller;
-use Checkout\Library\HttpHandler;
-use Checkout\Library\LogHandler;
-use Checkout\Library\Model;
-use Checkout\Library\Utilities;
+use CheckoutOldSdk\Controllers\EventController;
+use CheckoutOldSdk\Controllers\InstrumentController;
+use CheckoutOldSdk\Controllers\FileController;
+use CheckoutOldSdk\Controllers\PaymentController;
+use CheckoutOldSdk\Controllers\SourceController;
+use CheckoutOldSdk\Controllers\TokenController;
+use CheckoutOldSdk\Controllers\WebhookController;
+use CheckoutOldSdk\Library\CheckoutConfiguration;
+use CheckoutOldSdk\Library\Controller;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Library\LogHandler;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\Library\Utilities;
 
 /**
  * Wrapper controller class of Checkout.com SDK.

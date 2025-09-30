@@ -1,9 +1,9 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Tokens\Card;
-use Checkout\tests\Helpers\Tokens;
+use CheckoutOldSdk\Models\Tokens\Card;
+use CheckoutOldSdk\tests\Helpers\Tokens;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -11,7 +11,7 @@ class CardTest extends TestCase
 {
     public function testCreate()
     {
-        $class = new ReflectionClass('Checkout\Models\Tokens\Card');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Tokens\Card');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 

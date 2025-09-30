@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Library;
+namespace CheckoutOldSdk\tests\Library;
 
-use Checkout\Library\Exceptions\CheckoutHttpException;
+use CheckoutOldSdk\Library\Exceptions\CheckoutHttpException;
 use PHPUnit\Framework\TestCase;
 
 class CheckoutHttpExceptionTest extends TestCase

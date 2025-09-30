@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\Risk;
+use CheckoutOldSdk\Models\Payments\Risk;
 use PHPUnit\Framework\TestCase;
 
 class RiskTest extends TestCase

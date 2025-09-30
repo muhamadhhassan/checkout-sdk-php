@@ -1,12 +1,12 @@
 <?php
 
-namespace Checkout\tests\Library;
+namespace CheckoutOldSdk\tests\Library;
 
-use Checkout\Models\Payments\Payment;
-use Checkout\Models\Response;
-use Checkout\tests\Helpers\HttpHandlers;
-use Checkout\tests\Helpers\Payments;
-use Checkout\tests\Helpers\Responses;
+use CheckoutOldSdk\Models\Payments\Payment;
+use CheckoutOldSdk\Models\Response;
+use CheckoutOldSdk\tests\Helpers\HttpHandlers;
+use CheckoutOldSdk\tests\Helpers\Payments;
+use CheckoutOldSdk\tests\Helpers\Responses;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -61,7 +61,7 @@ class ModelTest
 
     public function testLoad()
     {
-        $class = new ReflectionClass('Checkout\Library\HttpHandler');
+        $class = new ReflectionClass('CheckoutOldSdk\Library\HttpHandler');
         $prop = $class->getProperty('response');
         $prop->setAccessible(true);
 
@@ -81,7 +81,7 @@ class ModelTest
 
     public function testCreate()
     {
-        $class = new ReflectionClass('Checkout\Models\Response');
+        $class = new ReflectionClass('CheckoutOldSdk\Models\Response');
         $method = $class->getMethod('create');
         $method->setAccessible(true);
 

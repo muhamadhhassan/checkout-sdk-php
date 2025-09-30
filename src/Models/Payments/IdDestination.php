@@ -15,7 +15,7 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Models\Payments;
+namespace CheckoutOldSdk\Models\Payments;
 
 /**
  * Payment destination field model.
@@ -53,7 +53,7 @@ class IdDestination extends Destination
      *
      * @param string $id        The payment source identifier for example, a card source identifier.
      * @param string $first     The payment destination owner's first name.
-     * @param string $last      The payment destination owner's last name. 
+     * @param string $last      The payment destination owner's last name.
      */
     public function __construct($id, $first, $last)
     {

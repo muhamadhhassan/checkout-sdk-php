@@ -1,9 +1,9 @@
 <?php
 
-namespace Checkout\tests\Models\Payments;
+namespace CheckoutOldSdk\tests\Models\Payments;
 
-use Checkout\Models\Payments\Destination;
-use Checkout\Models\Payments\TokenDestination;
+use CheckoutOldSdk\Models\Payments\Destination;
+use CheckoutOldSdk\Models\Payments\TokenDestination;
 use PHPUnit\Framework\TestCase;
 
 class DestinationTest extends TestCase

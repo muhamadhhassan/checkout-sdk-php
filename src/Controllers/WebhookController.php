@@ -15,15 +15,15 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Controllers;
+namespace CheckoutOldSdk\Controllers;
 
-use Checkout\Library\Controller;
-use Checkout\Library\Exceptions\CheckoutModelException;
-use Checkout\Library\HttpHandler;
-use Checkout\Library\Utilities;
-use Checkout\Models\Response;
-use Checkout\Models\Webhooks\Webhook;
-use Checkout\Models\Webhooks\WebhookHeaders;
+use CheckoutOldSdk\Library\Controller;
+use CheckoutOldSdk\Library\Exceptions\CheckoutModelException;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Library\Utilities;
+use CheckoutOldSdk\Models\Response;
+use CheckoutOldSdk\Models\Webhooks\Webhook;
+use CheckoutOldSdk\Models\Webhooks\WebhookHeaders;
 
 /**
  * Webhook controller.
@@ -121,7 +121,7 @@ class WebhookController extends Controller
         unset($body[static::FIELD_ID]); // Remove ID from the body.
         $response = $this->requestAPI($webhook->getEndpoint())
             ->setBody($body);
-        
+
         $response = $this->response($response, Webhook::QUALIFIED_NAME, $mode);
 
         if (isset($response->headers)) {

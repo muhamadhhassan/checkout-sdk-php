@@ -1,12 +1,12 @@
 <?php
 
-namespace Checkout\tests;
+namespace CheckoutOldSdk\tests;
 
-use Checkout\CheckoutApi;
-use Checkout\Library\HttpHandler;
-use Checkout\Library\LogHandler;
-use Checkout\Library\Model;
-use Checkout\tests\Helpers\CheckoutConfigurations;
+use CheckoutOldSdk\CheckoutApi;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Library\LogHandler;
+use CheckoutOldSdk\Library\Model;
+use CheckoutOldSdk\tests\Helpers\CheckoutConfigurations;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -37,7 +37,7 @@ class CheckoutApiTest extends TestCase
 
     // public function testLoadLogs()
     // {
-    //     $class = new ReflectionClass('Checkout\CheckoutApi');
+    //     $class = new ReflectionClass('CheckoutOldSdk\CheckoutApi');
     //     $method = $class->getMethod('loadLogs');
     //     $method->setAccessible(true);
 
@@ -51,7 +51,7 @@ class CheckoutApiTest extends TestCase
 
     // public function testLoadAliases()
     // {
-    //     $class = new ReflectionClass('Checkout\CheckoutApi');
+    //     $class = new ReflectionClass('CheckoutOldSdk\CheckoutApi');
     //     $method = $class->getMethod('loadAliases');
     //     $method->setAccessible(true);
 
@@ -63,7 +63,7 @@ class CheckoutApiTest extends TestCase
 
     // public function testLoadCurl()
     // {
-    //     $class = new ReflectionClass('Checkout\CheckoutApi');
+    //     $class = new ReflectionClass('CheckoutOldSdk\CheckoutApi');
     //     $method = $class->getMethod('loadCurl');
     //     $method->setAccessible(true);
 
@@ -75,7 +75,7 @@ class CheckoutApiTest extends TestCase
 
     // public function testLoadHttp()
     // {
-    //     $class = new ReflectionClass('Checkout\CheckoutApi');
+    //     $class = new ReflectionClass('CheckoutOldSdk\CheckoutApi');
     //     $method = $class->getMethod('loadHttp');
     //     $method->setAccessible(true);
 

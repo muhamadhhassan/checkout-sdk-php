@@ -15,17 +15,17 @@
  * @link      https://docs.checkout.com/
  */
 
-namespace Checkout\Controllers;
+namespace CheckoutOldSdk\Controllers;
 
-use Checkout\Library\Controller;
-use Checkout\Library\HttpHandler;
-use Checkout\Models\Payments\Action;
-use Checkout\Models\Payments\Capture;
-use Checkout\Models\Payments\Details;
-use Checkout\Models\Payments\Payment;
-use Checkout\Models\Payments\Refund;
-use Checkout\Models\Payments\Voids;
-use Checkout\Models\Response;
+use CheckoutOldSdk\Library\Controller;
+use CheckoutOldSdk\Library\HttpHandler;
+use CheckoutOldSdk\Models\Payments\Action;
+use CheckoutOldSdk\Models\Payments\Capture;
+use CheckoutOldSdk\Models\Payments\Details;
+use CheckoutOldSdk\Models\Payments\Payment;
+use CheckoutOldSdk\Models\Payments\Refund;
+use CheckoutOldSdk\Models\Payments\Voids;
+use CheckoutOldSdk\Models\Response;
 
 /**
  * Make payments.

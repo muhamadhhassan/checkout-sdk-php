@@ -1,8 +1,8 @@
 <?php
 
-namespace Checkout\tests\Controllers;
+namespace CheckoutOldSdk\tests\Controllers;
 
-use Checkout\CheckoutApi;
+use CheckoutOldSdk\CheckoutApi;
 use PHPUnit\Framework\TestCase;
 
 abstract class SandboxTestFixture extends TestCase
