@@ -2,7 +2,7 @@
     "name": "muhamadhhassan/checkout-sdk-php",
     "description": "Checkout.com SDK for PHP",
     "homepage": "https://github.com/muhamadhhassan/checkout-sdk-php",
-    "version": "1.0.21",
+    "version": "1.0.2`",
     "type": "library",
     "license": "MIT",
     "keywords": [
